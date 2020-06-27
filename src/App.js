@@ -49,7 +49,7 @@ function App() {
 
       }) .catch(error => {
         console.log(error)
-        toast.warn('City Not Found!',{position:toast.POSITION.TOP_CENTER});
+        toast.warn('City Does Not Exist! ',{position:toast.POSITION.TOP_CENTER});
          })
     }
     return (
